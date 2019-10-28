@@ -1,0 +1,10 @@
+graph {
+	node [color=lightblue2 style=filled]
+	"Outlook " -- "yes " [label="overcast "]
+	"Windy " -- "yes " [label="FALSE "]
+	"Windy " -- "no " [label="TRUE "]
+	"Humidity 
+Nominal " -- "no " [label="high "]
+	"Humidity 
+Nominal " -- "yes " [label="normal "]
+}
